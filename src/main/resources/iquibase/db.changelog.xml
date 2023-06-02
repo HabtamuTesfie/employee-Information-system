@@ -1,0 +1,47 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"-->
+<!--                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-->
+<!--                            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.2.xsd">-->
+<!--    <changeSet author="micha_kops" id="2014-07-29_1440-create-book-table"-->
+<!--               context="development">-->
+<!--        <createTable tableName="Employee">-->
+<!--            <column name="id" type="CHAR(36)">-->
+<!--                <constraints nullable="false" />-->
+<!--            </column>-->
+<!--            <column name="firstName" type="VARCHAR(255)" />-->
+<!--            <column name="lastName" type="VARCHAR(255)" />-->
+<!--            <column name="email" type="VARCHAR(255)" />-->
+<!--            <column name="gender" type="VARCHAR(255)" />-->
+<!--            <column name="birthDate" type="DATE" />-->
+<!--            <column name="expectedSalary" type="VARCHAR(255)" />-->
+<!--            <column name="phone" type="VARCHAR(255)" />-->
+<!--        </createTable>-->
+<!--    </changeSet>-->
+<!--    <changeSet author="micha_kops" id="2014-07-29_1450-add-a-book"-->
+<!--               context="development">-->
+<!--        <insert tableName="Employee">-->
+<!--            <column name="id" value="3B79F749-5B96-46CD-AAF8-4E75D663E6D4"/>-->
+<!--            <column name="firstName" value="habtamu"/>-->
+<!--            <column name="lastName" value="tesfie"/>-->
+<!--            <column name="email" value="habtamu@gmail.com"/>-->
+<!--            <column name="gender" value="male"/>-->
+<!--            <column name="birthDate" value="2014-01-11"/>-->
+<!--            <column name="expectedSalary" value="25000 birr"/>-->
+<!--            <column name="phone" value="male"/>-->
+<!--        </insert>-->
+<!--    </changeSet>-->
+<!--    <changeSet author="micha_kops" id="2014-07-29_1455-add-another-book"-->
+<!--               context="development">-->
+<!--        <insert tableName="Employee">-->
+<!--            <column name="id" value="6FE7A1E5-B172-4D7C-97C7-88667862B264"/>-->
+<!--            <column name="firstName" value="tariku"/>-->
+<!--            <column name="lastName" value="w/Gebrial"/>-->
+<!--            <column name="email" value="tariku@gmail.com"/>-->
+<!--            <column name="gender" value="male"/>-->
+<!--            <column name="birthDate" value="2014-01-11"/>-->
+<!--            <column name="expectedSalary" value="30000 birr"/>-->
+<!--            <column name="phone" value="male"/>-->
+<!--        </insert>-->
+<!--    </changeSet>-->
+<!--</databaseChangeLog>-->
